@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "yoanna-project-2022": {
+    "budget-tracker-2022": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/yoanna-project-2022",
+            "outputPath": "dist/budget-tracker-2022",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "yoanna-project-2022:build:production"
+              "browserTarget": "budget-tracker-2022:build:production"
             },
             "development": {
-              "browserTarget": "yoanna-project-2022:build:development"
+              "browserTarget": "budget-tracker-2022:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "yoanna-project-2022:build"
+            "browserTarget": "budget-tracker-2022:build"
           }
         },
         "test": {
